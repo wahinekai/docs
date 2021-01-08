@@ -1,4 +1,4 @@
-# Wahine Kai Documentation
+# Docs \| Wahine Kai
 
 This repository holds documentation information for the Wahine Kai organization's codebase.
 
