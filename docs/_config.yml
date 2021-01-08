@@ -38,6 +38,7 @@ repository: "wahinekai/docs"
 header_pages:
   - quickstart.md
   - repositories.md
+  - deployment.md
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
