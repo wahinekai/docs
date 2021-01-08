@@ -18,7 +18,7 @@
 title: Docs | Wahine Kai
 email: "cathy@wahinekai.org"
 description: >- # this means to ignore newlines until "baseurl:"
-  Documentation for the Wahine Kai Organization's Codebase
+  Documentation for the Wahine Kai Organization's Codebase.
 
 # Build settings
 plugins:
@@ -31,12 +31,13 @@ relative_links:
   collections: true
 
 url: "https://wahinekai.github.io/docs"
-github_username:  wahinekai
+github_username: wahinekai
 
 repository: "wahinekai/docs"
 
-# A list of the pages to display in the navigation bar
 header_pages:
+  - quickstart.md
+  - repositories.md
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

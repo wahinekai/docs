@@ -1,6 +1,9 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
   <div class="container">
-    <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+        <a class="navbar-brand" rel="author" class="mx-2" href="{{ "/" | relative_url }}">
+          <img src="https://wahinekaidevelopment.blob.core.windows.net/frontend-assets/squareLogo.png" alt="Navbar Logo" width="35" height="35" class="mx-2">
+          Wahine Kai Documentation
+        </a>
 
     {%- assign page_paths = site.header_pages -%}
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -8,7 +11,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav">
         {%- for path in page_paths -%}
           {%- assign my_page = site.pages | where: "path", path | first -%}
           {%- if my_page.title -%}
