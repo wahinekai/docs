@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  docs:
+    build:
+      context: ./docs
+    image: wahinekai/memberdatabase-docs
+    container_name: wahinekai-memberdatabase-docs
+    stdin_open: true
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./docs:/app
